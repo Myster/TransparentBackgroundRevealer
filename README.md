@@ -8,13 +8,12 @@ javascript:document.children[0].style.backgroundImage = `url('data:image/svg+xml
 ```
 When you click the bookmark it will reveal transparent backgrounds by applying a checkerboard behind
 
-Steps to create this URL from the source file:
+Steps to create this Bookmarklet from the source:
 1. Review the source of [transparent-background-revealer.js](https://github.com/Myster/TransparentBackgroundRevealer/blob/main/transparent-background-revealer.js) 
-2. Copy this source code to a text editor, remove linebreaks, and prefix the code with `javascript:`
-3. Copy that to your clipboard.
+2. Copy this source code to your clipboard
 4. Create a bookmark with whatever name you want.
-5. PASTE the URL from the clipboard copied in step #2
-6. You may also wish to watch or star this repo in case the source is updated.
+5. Set the URL to be `javascript:` followed by the code from the clipboard copied in step #2
+6. You may wish to watch or star this repo in case the source is updated.
 
 I no-longer recommend hot-linking to my, or any repo you don't own/trust as it could change the script to be malicious. but I've left it here for backwards compatibility.
 The hot-link solution also does not work where cross-domain scripts are not allowed.
